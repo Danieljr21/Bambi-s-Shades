@@ -1,0 +1,12 @@
+img{
+     transition: all 1s;    
+}
+img :hover{
+    transform: scale(1.1);
+}
+H2{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
