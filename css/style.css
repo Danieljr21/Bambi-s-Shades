@@ -1,0 +1,33 @@
+.navbar{
+    background-color: aqua;
+}
+h1{
+    background-color: black;
+}
+.carousel-item img {
+  transition: all 0.5s ease;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+h2{
+    font-size: 50px;
+    background-color: rgba(163, 158, 158, 0.3);
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.purchase-btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.purchase-btn:hover {
+  background-color: rgba(163, 158, 158, 0.3) ;
+  color:rgba( 140, 81, 81);
+  transform: scale(1.05);
+}
