@@ -1,9 +1,16 @@
-.navbar{
-    background-color: aqua;
+/* Custom class to move carousel captions to the right and bottom */
+.carousel-caption-right-bottom {
+  right: 2rem;
+  left: auto;
+  bottom: 2rem;
+  top: auto;
+  text-align: right;
 }
-h1{
-    background-color: black;
+
+.navbar {
+  background-color: aqua;
 }
+
 .carousel-item img {
   transition: all 0.5s ease;
 }
@@ -12,14 +19,45 @@ h1{
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-h2{
-    font-size: 50px;
-    background-color: rgba(163, 158, 158, 0.3);
+
+h2 {
+  font-size: 50px;
+  background-color: rgba(181, 203, 255, 0.3);
+  border: 5px;
+  box-shadow: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgba(255, 159, 159 0.15);
+  color: rgba(0, 55, 181);
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(141, 136, 136, 0.15);
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 2rem;
 }
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-style: normal;
+
+h4 {
+  text-align: justify;
+  text-decoration: none;
+  font-size: 3pc;
+  text-align:center ;
+  font-style: italic;
+  background-color: rgba(181, 203, 255, 0.3);
+}
+
+h6 {
+  text-align: end;
+  font-size: 5pc;
+  font-style: italic;
+  text-decoration: none;
+  background-color: rgba(181, 203, 255, 0.3);
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .purchase-btn {
@@ -27,7 +65,7 @@ p{
 }
 
 .purchase-btn:hover {
-  background-color: rgba(163, 158, 158, 0.3) ;
-  color:rgba( 140, 81, 81);
+  background-color: rgba(163, 158, 158, 0.3);
+  color: rgba(140, 81, 81);
   transform: scale(1.05);
 }
